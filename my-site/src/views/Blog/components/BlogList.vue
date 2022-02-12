@@ -11,7 +11,7 @@
               },
             }"
           >
-            <img v-lazy="`http://localhost:7001${item.thumb}`" :alt="item.title" :title="item.title" />
+            <img v-lazy="item.thumb" :alt="item.title" :title="item.title" />
           </RouterLink>
         </div>
         <div class="main">

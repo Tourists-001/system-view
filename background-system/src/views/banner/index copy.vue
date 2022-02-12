@@ -78,8 +78,8 @@ export default {
         return data.map((item, index) => ({
           ...item,
           order: index + 1,
-          midImg: server_URL + item.midImg,
-          bigImg: server_URL + item.bigImg
+          // midImg: server_URL + item.midImg,
+          // bigImg: server_URL + item.bigImg
         }));
       });
     }

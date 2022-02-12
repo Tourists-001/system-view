@@ -8,8 +8,8 @@
     <div class="carousel-img" ref="image" :style="imagePosition">
       <ImageLoader
         @load="this.showWords"
-        :src="`http://localhost:7001${carousel.bigImg}`"
-        :placeholder="`http://localhost:7001${carousel.midImg}`"
+        :src="carousel.bigImg"
+        :placeholder="carousel.midImg"
       />
     </div>
     <div class="title" ref="title">{{ carousel.title }}</div>

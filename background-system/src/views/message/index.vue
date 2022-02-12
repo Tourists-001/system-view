@@ -85,9 +85,9 @@ export default {
     fetchData() {
       getMessage(this.currentPage, this.eachPage).then(({ data }) => {
         // console.log(data);
-        for (const i of data.rows) {
-            i.avatar = server_URL + i.avatar
-        }
+        // for (const i of data.rows) {
+        //     i.avatar = server_URL + i.avatar
+        // }
         // console.log(data.rows);
         this.tableData = data.rows;
         this.count = data.total; //计算总条数

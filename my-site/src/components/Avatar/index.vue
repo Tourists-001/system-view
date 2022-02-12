@@ -21,11 +21,6 @@ export default {
       default: 150,
     },
   },
-  computed:{
-      serve(){
-          return 'http://localhost:7001'
-      }
-  }
 };
 </script>
 

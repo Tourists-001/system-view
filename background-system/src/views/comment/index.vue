@@ -86,9 +86,9 @@ export default {
   methods: {
     fetchData() {
       getComment(this.currentPage, this.eachPage).then(({ data }) => {
-        for (const i of data.rows) {
-            i.avatar = server_URL + i.avatar
-        }
+        // for (const i of data.rows) {
+        //     // i.avatar = server_URL + i.avatar
+        // }
         // console.log(data.rows);
         this.tableData = data.rows;
         this.count = data.total; //计算总条数

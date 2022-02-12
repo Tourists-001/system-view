@@ -115,10 +115,10 @@ export default {
     fetchData() {
       getBanners().then(res => {
         this.data = res.data;
-        for (var item of this.data) {
-          item.midImg2 = server_URL + item.midImg;
-          item.bigImg2 = server_URL + item.bigImg;
-        }
+        // for (var item of this.data) {
+        //   item.midImg2 = server_URL + item.midImg;
+        //   item.bigImg2 = server_URL + item.bigImg;
+        // }
       });
     },
     handleClick(bannerInfo) {

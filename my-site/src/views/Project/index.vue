@@ -7,7 +7,7 @@
         "
         :target="item.url ? '_blank' : '_self'"
       >
-        <img class="thumb" v-lazy="`http://localhost:7001${item.thumb}`" />
+        <img class="thumb" v-lazy="item.thumb" />
       </a>
       <div class="info">
         <h2>

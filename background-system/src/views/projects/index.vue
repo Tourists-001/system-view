@@ -178,7 +178,7 @@ export default {
         this.tableData = data;
         this.listLoading = false;
         for (let i of this.tableData) {
-          i.thumb2 = server_URL + i.thumb;
+          // i.thumb2 = server_URL + i.thumb;
           this.srcList.push(i.thumb2);
         }
       });

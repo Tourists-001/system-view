@@ -39,7 +39,7 @@
         <span>{{ data.weixin }}</span>
       </a>
       <div class="pop">
-        <img :src="`http://localhost:7001${data.weixinQrCode}`" alt="" />
+        <img :src="data.weixinQrCode" alt="" />
       </div>
     </li>
   </ul>

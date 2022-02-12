@@ -132,7 +132,7 @@ export default {
         this.data = data.rows;
         // console.log(this.data);
         for (let i of this.data) {
-          i.thumb = server_URL + i.thumb;
+          // i.thumb = server_URL + i.thumb;
           this.srcList.push(i.thumb);
         }
         this.count = data.total;
